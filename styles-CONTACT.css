@@ -1,0 +1,85 @@
+body, html {margin:0;
+           padding:0;
+}
+
+main .parallax {font-family: 'San Francisco', Helvetica, Arial, san-serif;
+      font-size: 1rem;
+      letter-spacing: 0.05em;
+      font-weight: bold;
+}
+  
+main .sectionS, .sectionL {font-family: 'San Francisco', Helvetica, Arial, san-serif;
+      font-size: 2.6rem;
+      letter-spacing: 0.01em;
+     font-weight: bold;
+}
+
+.wrapper {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 2.12px;
+}
+
+.section {
+
+  position: relative;
+  height: 60vh;
+
+  /*TEXT STYLE*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  box-shadow: 0px 10000px rgba(22, 43, 64, 0.4) inset;
+}
+
+.sectionS {
+
+  position: relative;
+  height: 40vh;
+  /*TEXT STYLE*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+   text-shadow: -3px 2px 2.5px skyblue;
+ 
+}
+
+
+
+
+
+/*------------------------------*/
+
+.parallax::after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateZ(-1px) scale(1.5);
+  
+  background-size: 100%;
+  z-index: -1;
+}
+
+
+.static {
+  background-color: #09141e;
+}
+
+
+.bg1 {
+  background-image: url(http://www.classicrotaryphones.com/1934patent_big.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+   
+}
+
+

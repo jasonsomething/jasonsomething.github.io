@@ -1,0 +1,119 @@
+
+body, html {margin:0;
+           padding:0;
+}
+
+main .parallax {font-family: 'San Francisco', Helvetica, Arial, san-serif;
+      font-size: 1.5rem;
+      letter-spacing: 0.05em;
+      font-weight: bold;
+}
+  
+main .sectionS, .sectionL {font-family: 'San Francisco', Helvetica, Arial, san-serif;
+      font-size: 2.2rem;
+      letter-spacing: 0.01em;
+     font-weight: bold;
+}
+
+.wrapper {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 2.12px;
+}
+
+.section {
+
+  position: relative;
+  height: 100vh;
+
+  /*TEXT STYLE*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  box-shadow: 0px 10000px rgba(22, 43, 64, 0.15) inset;
+}
+
+.sectionS {
+
+  position: relative;
+  height: 70vh;
+  /*TEXT STYLE*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+   text-shadow: -3px 2.5px 2.5px #d7a62e;
+ 
+}
+
+.sectionL {
+
+  position: relative;
+  height: vh;
+  /*TEXT STYLE*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+    text-shadow: -3px 2.5px 3px #d7a62e;   
+}
+
+
+
+
+/*------------------------------*/
+
+.parallax::after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateZ(-1px) scale(1.5);
+  
+  background-size: 100%;
+  z-index: -1;
+}
+
+
+.static {
+  background-color: #06090b;
+}
+
+
+.bg1::after {
+  background-image: url(https://cdn.discordapp.com/attachments/403719036262809613/429057496360157204/unknown.png);
+  background-repeat: no-repeat;
+  background-size: 120%;
+  background-position: center;
+   
+}
+
+.bg2::after {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(https://c1.staticflickr.com/1/787/26301420817_8a25c950ef_o.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+ 
+  
+}
+
+.bg3::after {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, .6)), url(https://c1.staticflickr.com/1/892/26301422357_37598046c5_o.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+ 
+}
+
+
+
+
+
+
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jason H. M. Ng</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    
+<link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+    
+   
+</head>
+
+<body>
+
+  <div> 
+    </div> 
+    
+<header>
+    
+    <h1 id="title"> Jason H. M. <span>Ng</span> </h1>
+    <h2 id="sub-head">Composer, Sound Desginer, Audio Engineer</h2>
+    
+    
+</header>   
+    
+    <nav id="title2">
+        <a href="Oedipal_Mother.html">
+            <h2 id="OM">SUMO SOCCER</h2>
+        </a>
+        
+        <a>
+            <h2 id="HA">GAME NUMBER TWO</h2>
+        </a>  
+        
+        <a>
+            <h2 id="SE"> OTHER RECENT <br>WORKS</h2>
+        </a>
+    </nav>
+    
+    <article>
+       
+    
+    </article>
+
+</body>
+</html>

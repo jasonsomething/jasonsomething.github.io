@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<!--
+  * Please see the included README.md file for license terms and conditions.
+  -->
+<head>
+    <title>DESPOTOPHILIA</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    
+<link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+    
+   
+</head>
+
+<body>
+
+  <div> 
+    </div> 
+    
+<header>
+    
+    <h1 id="title">DESPOTOPHILIA</h1>
+    <h2 id="sub-head">IN THREE MOVEMENTS</h2>
+    
+</header>   
+    
+    <nav id="title2">
+        <h2 id="OM">I. The Oedipal Mother</h2> 
+        <h2 id="HA">II. Habitus and Alienation</h2> 
+        <h2 id="SE">III. Species Essence</h2>
+    </nav>
+    
+    <article>
+       
+    
+    </article>
+
+</body>
+</html>
+ 
+    </article>
+
+</body>
+</html>
+    
+    border: 3px solid rgba(240, 240, 240, 0.5);
+}
+
+#OM:hover {
+    background: url(http://4.bp.blogspot.com/_kEFTmMk3e5c/TJVyoxEpeMI/AAAAAAAACV4/UE7bpJAgM0g/s1600/Blessed_Virgin_Mary_Crushing_Devil.jpg);
+    opacity: 0.8;
+    background-position: 40% 20%;
+    background-size: cover;
+}
+
+#HA:hover {
+    background: url(https://upload.wikimedia.org/wikipedia/commons/1/11/Sheep%2C_Torres_del_Paine.jpg);
+    background-position: bottom;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+#SE:hover {
+    background: url(https://upload.wikimedia.org/wikipedia/commons/e/ee/Creation_of_man_Prometheus_Berthelemy_Louvre_INV20043_n2.jpg);
+    background-position: top;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+
+body{
+    background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(http://www.publicdomainpictures.net/pictures/170000/velka/chimpanzee-sitting.jpg);
+    background-position: top;
+    background-size: cover;
+} 
+
+article {
+    color: ghostwhite;
+    text-align: justify;
+    font-size: 2em;
+    font-family: Helvetica;
+    font-weight: lighter; 
+    z-index: 1;  
+}
+
+
+
+
+
+

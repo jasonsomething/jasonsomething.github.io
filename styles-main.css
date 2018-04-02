@@ -1,0 +1,165 @@
+#title {
+    color: white;
+    text-align: center;
+    font-size: 500%;
+    font-family: 'San Francisco', Helvetica, Arial, san-serif;
+    font-weight:bold; 
+    z-index: 2;  
+    opacity: 0.95;
+    letter-spacing: 0.9px;
+     text-shadow: 1px 1px 25px black;
+}
+
+h1 span {font-size: 100% }
+
+#sub-head {
+    color: white;
+    text-align: center;
+    font-size: 150%;
+    font-family: 'San Francisco', Helvetica, Arial, san-serif;
+    font-weight: lighter; 
+    z-index: 1;  
+    opacity: 0.8;
+    margin-top: -2.5em;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px black;
+}
+
+nav {
+    display: flex;
+    flex: 1;
+    flex-flow: row wrap;
+    justify-content:center;
+}
+
+nav h2 {
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    font-family: 'San Francisco', Helvetica, Arial, san-serif;   
+    opacity: 1;   
+}
+/*----------------------------------------------------*/
+#SS, #RR {
+    padding-bottom: 25em;
+    padding-left: 4.5em;
+    padding-right: 4.5em;
+    padding-top: 1em;
+    
+    margin: 1em;
+    border: 3px solid rgba(240, 240, 240, 0.5);
+    border-radius: 7px;
+}
+
+#JS {
+    padding-bottom: 25em;
+    padding-left: 5.8em;
+    padding-right: 5.8em;
+    padding-top: 1em;
+    
+    margin: 1em;
+    margin-left: 3em;
+    margin-right: 3em;
+    border: 3px solid rgba(240, 240, 240, 0.5);
+    border-radius: 7px;
+}
+/*----------------------------------------------------*/
+
+/*NO DECORATION AFTER VISITING LINK*/
+a, a:visited, a:hover {text-decoration: none;}
+
+
+
+
+
+
+
+/*----------------------------------------------------*/
+#SS {
+    background: url(https://media.discordapp.net/attachments/362058773331968012/427545291441307675/unknown.png);
+    opacity: 0.6;
+    background-position: center;
+    background-size: cover;
+}
+
+#JS {
+    background: url(https://cdn.discordapp.com/attachments/403719036262809613/429057496360157204/unknown.png);
+    background-position: top;
+    background-size: cover;
+    opacity: 0.6;
+}
+
+#RR {
+    background: url(https://media.discordapp.net/attachments/411955666723274764/427280471207051274/rhythm_rush_logo-09.png?width=1086&height=663);
+    background-position: 0;
+    background-size: 310%;
+    opacity: 0.6;
+}
+
+
+/*HOVER EFFECTS!!----------------------------------------*/
+
+#SS:hover {
+    background: url(https://media.discordapp.net/attachments/362058773331968012/427545291441307675/unknown.png);
+    opacity: 1;
+    background-position: center;
+    background-size: cover;
+}
+
+#JS:hover {
+    background: url(https://cdn.discordapp.com/attachments/403719036262809613/429057496360157204/unknown.png);
+    background-position: top;
+    background-size: cover;
+    opacity: 1;
+}
+
+#RR:hover {
+    background: url('https://media.discordapp.net/attachments/411955666723274764/427280471207051274/rhythm_rush_logo-09.png?width=1086&height=663');
+    background-position: 0;
+    background-size: 310%;
+    opacity: 1;
+}
+/*-------------------------------------------------------*/
+
+
+
+#main{
+   background: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) ), url(https://upload.wikimedia.org/wikipedia/commons/2/23/Screenshot_from_IMAX%C2%AE_3D_movie_Hidden_Universe_showing_the_Helix_Nebula_in_infrared.jpg)
+    no-repeat bottom fixed;
+    background-size: cover;
+} 
+
+footer {
+    color: ghostwhite;
+    font-size: 0.95em;
+    font-family: 'San Francisco', Helvetica, Arial, san-serif;
+    font-weight: lighter; 
+    z-index: 1; 
+    text-align: center;    
+}
+
+#footer1, #footer2 {
+    color: ghostwhite;
+    font-size: 1.5rem;
+    font-family: 'San Francisco', Helvetica, Arial, san-serif;
+    font-weight: lighter; 
+    z-index: 1; 
+    text-align: center;
+   
+    padding: 0.1em;
+    margin: 0.5em;
+    border: 3px solid rgba(240, 240, 240, 0.5);
+    border-radius: 7px;
+}
+
+#footer-div {
+    text-align: center;
+}
+
+#footer1:hover, #footer2:hover {
+    background-color: burlywood;
+    background-position: top;
+    background-size: cover;
+    opacity: 1;
+}
+
