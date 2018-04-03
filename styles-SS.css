@@ -88,7 +88,7 @@ main .sectionS, .sectionL {font-family: 'San Francisco', Helvetica, Arial, san-s
 .bg1::after {
   background-image: url(https://files.slack.com/files-tmb/T707Q5BFS-F87AXE328-3e5425f270/loading_background_1024.png);
   background-repeat: no-repeat;
-  background-size: 120%;
+  background-size: cover;
   background-position: center;
    
 }
