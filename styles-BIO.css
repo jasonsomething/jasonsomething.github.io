@@ -1,15 +1,17 @@
+
 body, html {margin:0;
            padding:0;
 }
 
 main .parallax {font-family: 'San Francisco', Helvetica, Arial, san-serif;
-      font-size: 1.5rem;
+      font-size: 2.5rem;
       letter-spacing: 0.05em;
 }
   
-main .sectionS, .sectionL {font-family: 'San Francisco', Helvetica, Arial, san-serif;
-      font-size: 2.2rem;
-      letter-spacing: 0.01em;
+#sectionS {
+    font-family: 'San Francisco', Helvetica, Arial, san-serif;
+    font-size: 1.8em;
+    letter-spacing: 0.0em;
 }
 
 .wrapper {
@@ -18,34 +20,45 @@ main .sectionS, .sectionL {font-family: 'San Francisco', Helvetica, Arial, san-s
   overflow-y: auto;
   perspective: 2.12px;
 }
+/*---------------------------------------------------------------*/
+
+
 
 .section {
 
   position: relative;
-  height: 50vh;
-
+  height: 100vh;
   /*TEXT STYLE*/
-  display: flex;
-  align-items: center;
-  justify-content: center;
- 
-  color: white;
-  box-shadow: 0px 10000px rgba(22, 43, 64, 0.15) inset;
+  box-shadow: 10000px 1000000px rgba(41,12,6, 0.15) inset;
 }
 
-.sectionS {
+#sectionS {
 
   position: relative;
-  height: 80vh;
+    
+    
+    
+    /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+  min-height: 80vh;
+  padding-bottom: 100px;
+    /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+    
+    
+    
   /*TEXT STYLE*/
-  display: flex;
-  align-items: center;
   text-align: justify;
-  color: gainsboro;
- 
- 
+  color: gainsboro; 
 }
-p {margin: 130px;}
+
+#p1 {
+    margin-top: -0px;
+}
+
+
+p {
+    margin-left: 100px;
+    margin-right: 100px;
+}
 
 
 
@@ -67,17 +80,22 @@ p {margin: 130px;}
 
 
 .static {
-  background-color: #09141e;
+  background-color: #180502;
+      ;
 }
 
 
 .bg1::after {
-  background-image: url();
+  background-image: url(https://c1.staticflickr.com/1/822/26323983417_a812af5a6f_k.jpg);
   background-repeat: no-repeat;
-  background-size: 120%;
   background-position: center;
-   
+    
+    
+  background-size: cover; 
 }
+
+
+
 
 
 
