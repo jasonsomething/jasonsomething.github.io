@@ -88,7 +88,7 @@ p {
 .bg1::after {
   background-image: url(https://c1.staticflickr.com/1/822/26323983417_a812af5a6f_k.jpg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: left;
     
     
   background-size: cover; 
