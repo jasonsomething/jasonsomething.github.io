@@ -46,7 +46,7 @@ main .sectionS, .sectionL {font-family: 'San Francisco', Helvetica, Arial, san-s
   justify-content: center;
   text-align: center;
   color: white;
-   text-shadow: -3px 2px 0px #d7a62e;
+   text-shadow: -2px 1px 0px #d7a62e;
  
 }
 
@@ -59,7 +59,7 @@ main .sectionS, .sectionL {font-family: 'San Francisco', Helvetica, Arial, san-s
   align-items: center;
   justify-content: center;
   color: white;
-    text-shadow: -3px 2px 0px #d7a62e;   
+    text-shadow: -2px 1px 0px #d7a62e;   
 }
 
 
