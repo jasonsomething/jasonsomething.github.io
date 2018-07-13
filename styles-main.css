@@ -157,7 +157,7 @@ footer {
 }
 
 #footer1:hover, #footer2:hover {
-    background-color: burlywood;
+    background-color: black;
     background-position: top;
     background-size: cover;
     opacity: 1;
