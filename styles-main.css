@@ -145,9 +145,8 @@ footer {
     font-weight: lighter; 
     z-index: 1; 
     text-align: center;
-    background-color: #141823;
     background-color: rgba(20, 24, 35, 0.5);
-   
+  
     padding: 0.1em;
     margin: 0.5em;
     border: 3px solid rgba(240, 240, 240, 0.5);
@@ -159,9 +158,8 @@ footer {
 }
 
 #footer1:hover, #footer2:hover {
-    background-color: #141823;
+    background-color: rgba(20, 24, 35, 1);
     background-position: top;
     background-size: cover;
-    opacity: 1;
 }
 
